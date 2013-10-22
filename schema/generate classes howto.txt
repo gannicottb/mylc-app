@@ -1,0 +1,14 @@
+Generate C# class:
+
+>xsd.exe messageSchema.xsd /c /o:generated
+
+Generate Java classes:
+
+>xjc messageSchema.xsd
+
+Convert Java classes into Simple:
+
+>sed -f jaxb2simple.sed generated\Message.java > generated\SimpleMessage.java
+
+
+//It's worth mentioning that the sed script is imperfect. I need to correct it before I can really trust it.

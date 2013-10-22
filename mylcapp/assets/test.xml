@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<record>
+	<body id="1">
+		<title>"This is a title."</title>
+		<data1>"Here is some data."</data1>
+		<data2>"Here is some more data."</data2>
+	</body>
+</record>

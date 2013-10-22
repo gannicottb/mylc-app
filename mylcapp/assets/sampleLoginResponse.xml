@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response id ="1">
+	<action>login</action>
+	<sessionid>23459120332</sessionid>
+	<result>0</result>
+	<resulttext>Success</resulttext>
+</response>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, XMLParsingActivity!</string>
+    <string name="app_name">XMLParsing</string>
+    <!-- Action Titles -->
+    
+    <!-- master list of actions and associated strings -->
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="meals">Meals</string>
+    <string name="money">Money</string>
+    <string name="forms">Forms</string>
+    <string name="directory">Directory</string>
+    <string name="bio">Bio</string>
+    
+    <!-- Login Screen Strings -->
+    <string name="login_title">MyLC</string>
+    <string name="user_text">Username:</string>
+    <string name="pass_text">Password:</string>
+    <string name="pin_text">PIN:</string>
+    <string name="pin_hint">4-digit PIN</string>
+    <string name="login_btn_text">Login</string>
+    <string name="remember_text">Remember Me</string>
+    
+    <string name="placeholder_text">Home</string>
+    <string name="home_screen_header_text">Debug Info Goes Here.</string>
+</resources>

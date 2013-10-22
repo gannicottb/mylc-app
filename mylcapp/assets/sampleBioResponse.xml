@@ -1,0 +1,11 @@
+<Response>
+	<action>bio</action>
+	<sessionId/>
+	<result>1</result>
+	<resultText>Success</resultText>
+	<data>
+	    <string>Your Name</string>
+	    <string>Your Class</string>
+	    <string>Your Year</string>
+	</data>
+</Response>

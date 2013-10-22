@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="valuelist">
+		<xs:list itemType="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="message" type="Message"/>	
+	<xs:complexType name="Message">
+		<xs:sequence>
+			<xs:element name="action" type="xs:string"/>
+			<xs:element name="sessionId" type="xs:string"/>
+			<xs:element name="result" type="xs:int"/>
+			<xs:element name="resultText" type="xs:string"/>
+			<xs:element name="data" type="valuelist"/>				
+		</xs:sequence>
+	</xs:complexType>	
+</xs:schema>
